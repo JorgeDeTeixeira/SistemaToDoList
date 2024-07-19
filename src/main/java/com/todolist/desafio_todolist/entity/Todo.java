@@ -14,7 +14,7 @@ public class Todo {
 	private Long id;
 	private String nome;
 	private String descricao;
-	private boolean realiado;
+	private boolean realizado;
 	private int prioridade;
 
 	public Long getId() {
@@ -41,12 +41,12 @@ public class Todo {
 		this.descricao = descricao;
 	}
 
-	public boolean isRealiado() {
-		return realiado;
+	public boolean isRealizado() {
+		return realizado;
 	}
 
-	public void setRealiado(boolean realiado) {
-		this.realiado = realiado;
+	public void setRealizado(boolean realizado) {
+		this.realizado = realizado;
 	}
 
 	public int getPrioridade() {
